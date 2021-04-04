@@ -7,22 +7,13 @@ public class Amistad {
 		return new Amistad();
 	}
 
-	/*public static Amistad ofVertex(Persona c1, Persona c2) {
-		return new Amistad(c1,c2);
-	}*/
+	
 
 	public static Amistad ofFormat(Persona c1, Persona c2, String[] formato) {
 		return new Amistad(c1,c2);
 	}
 
-	//public static Amistad ofWeight(Persona c1, Persona c2, Double km) {
-	//	return new Amistad(c1, c2, km);
-	//}
 	
-	/*public static Amistad reverse(Amistad c) {
-		return new Amistad(c.target, c.source);
-	}*/
-
 	private Persona source;
 	private Persona target;
 	

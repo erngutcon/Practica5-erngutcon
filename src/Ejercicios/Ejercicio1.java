@@ -2,6 +2,7 @@ package Ejercicios;
 
 import java.util.Comparator;
 
+
 import java.util.HashMap;
 
 import java.util.HashSet;
@@ -76,9 +77,6 @@ public class Ejercicio1 {
 				e->String.format("%s", ""),
 				v->GraphColors.getColor(colores(v,g)),
 				e-> GraphColors.getStyle(Style.solid));
-		
-		
-		
 	}
 	
 	public static Color colores(Persona p, Graph<Persona, Amistad> g) {
